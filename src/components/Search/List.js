@@ -67,7 +67,7 @@ function List() {
     const getVerify = async () => {
         try {
             const response = await axios.get(
-                'https://port-0-back-deploy-eu1k2lllfhbb3w.sel3.cloudtype.app/search/'
+                'https://port-0-back-deploy-eu1k2lllf8s0bx.sel3.cloudtype.app/search/'
             );
             setVerifys(response.data);
         } catch (error) {

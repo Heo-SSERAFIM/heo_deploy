@@ -84,7 +84,7 @@ function FakeForm() {
     };
 
     const cancle = (e) => {
-        window.location.href = '/';
+        window.location.href = '/main';
     };
 
     const openPopup = () => {
